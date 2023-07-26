@@ -16,7 +16,7 @@ function getData(artworkId) {
 
       const infoHtml = `
         <h2 class='art_title'>${title}</h2>
-        <p class='art_artist grow'>Artist: ${artist}</p>
+        <p class='art_artist'>Artist: ${artist}</p>
         <p class='art_date'>Date: ${date_display}</p>
         <p class='art_location'>Location: ${place_of_origin}</p>
         <img class='art_image grow' src="https://www.artic.edu/iiif/2/${imageUrl}/full/843,/0/default.jpg" alt="${title}">`;
